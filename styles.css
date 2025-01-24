@@ -51,6 +51,7 @@ li a {
 }
 /* this isnt redundant */
 /* sure its not */
+/* try just float right i dare you */
 .navbar-right {
     float: right;
     transform: translateX(-50px);
@@ -73,11 +74,7 @@ li a {
     cursor: pointer; 
 }
 
-#startHere:active {
-    background-color: #6fa8dc; 
-    transform: scale(0.95); 
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2); 
-}
+/* yes have an active class for a button that redirects */
 /* ive never used a w3 schools tutorial dont know what yall talking about*/
 input[type='text']{
     background-color:#5d5d5d;
@@ -105,4 +102,5 @@ textarea:focus {
   border-color: #007BFF; 
   box-shadow: 0 0 5px #007BFF; 
 }
+/* box-shadow in the big 2025 broken heart*/
 /* haha you thought i was gonna and paste the same css for every single text id in the whole html right hahahhahahahahhahahaahahahahhahaaaahha */
