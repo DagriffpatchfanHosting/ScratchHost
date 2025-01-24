@@ -78,6 +78,10 @@ li a {
 /* ive never used a w3 schools tutorial dont know what yall talking about*/
 input[type='text']{
     background-color:#5d5d5d;
+    border: 1px solid #ccc; 
+  border-radius: 10px;    
+  padding: 10px;        
+  outline: none; 
 }
 #continueButton {
     background-color: #003cff;
@@ -88,17 +92,8 @@ input[type='text']{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
-input[type="text"], 
-textarea {
-  border: 1px solid #ccc; 
-  border-radius: 10px;    
-  padding: 10px;        
-  outline: none;        
-}
-
-input[type="text"]:focus, 
-textarea:focus {
+/* */
+input[type="text"]:focus, {
   border-color: #007BFF; 
   box-shadow: 0 0 5px #007BFF; 
 }
